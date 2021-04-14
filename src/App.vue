@@ -8,13 +8,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
-// import {ElButton } from 'element-plus'
+import {ElButton } from 'element-plus'
 
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld,
-    // ElButton
+    ElButton
   }
 })
 </script>
@@ -28,7 +28,5 @@ export default defineComponent({
   color: #2c3e50;
   margin-top: 60px;
 }
-button{
-  @apply outline-none
-}
+
 </style>
